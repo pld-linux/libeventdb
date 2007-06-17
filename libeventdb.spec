@@ -19,10 +19,10 @@ BuildRequires:	sqlite-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-libeventdb library.
+GPE Event Database library.
 
 %description -l pl.UTF-8
-Biblioteka libeventdb.
+Biblioteka bazy danych zdarzeń GPE.
 
 %package devel
 Summary:	Header files for libeventdb
