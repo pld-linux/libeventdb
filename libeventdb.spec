@@ -1,18 +1,17 @@
 Summary:	GPE Event Database library
 Summary(pl.UTF-8):	Biblioteka bazy danych zdarzeń GPE
 Name:		libeventdb
-Version:	0.30
+Version:	0.90
 Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://gpe.linuxtogo.org/download/source/%{name}-%{version}.tar.bz2
-# Source0-md5:	aeab2ac484b9cbb5a950f1f4ca2a32ad
+# Source0-md5:	fd7975bb5f3ddb46e6f318e69c3d92d4
 URL:		http://gpe.linuxtogo.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	gtk-doc >= 1.8
-BuildRequires:	libgpewidget-devel
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRequires:	sqlite-devel
@@ -30,6 +29,7 @@ Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libeventdb
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 2.0
+# just for include dir
 Requires:	libgpewidget-devel
 Requires:	sqlite-devel
 
